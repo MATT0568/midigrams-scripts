@@ -1,0 +1,12 @@
+MIDI.js
+
+https://github.com/chrisdonahue/nesmdb#midi-format - 
+nesmdb is a Python 2 (support for Python 3 forthcoming) package which can render your generated music through an emulation of the NES synthesizer. Additionally, it can convert between dataset formats or convert new VGM files into the existing formats.
+
+https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/
+
+https://github.com/mobyvb/midi-converter
+
+https://github.com/chrisguttandin/midi-json-parser
+
+https://github.com/nfroidure/midifile
