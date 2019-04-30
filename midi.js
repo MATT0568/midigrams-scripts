@@ -65,22 +65,21 @@ var trackShell = {
 //-----------------------------------------------------
 //CREATES FILE NOTE STRING
 //-----------------------------------------------------
-fileLoop();
+// fileLoop();
 
 //-----------------------------------------------------
 //RUNS NGRAM.PL AND GETS SONG NOTES
 //-----------------------------------------------------
-// var ngram = exec.execSync('perl ngram.pl 3 1 tracks.txt').toString();
-// console.log(ngram);
-// ngramToFile(ngram);
+var ngram = exec.execSync('perl ngram.pl 3 1 tracks.txt').toString();
+ngramToFile(ngram);
 
 //-----------------------------------------------------
 //CREATES MIDI FROM NGRAM.PL OUTPUT
 //-----------------------------------------------------
-//var notes = stringToArray(ngram);
-// var notes = fileToArray();
-// createJsonFile(notes);
-// convertToMidi(trackShell);
+var notes = stringToArray(ngram);
+var notes = fileToArray();
+createJsonFile(notes);
+convertToMidi(trackShell);
 
 
 function fileLoop() {
